@@ -1,0 +1,325 @@
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: max-content;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: max-content;
+}
+
+.text-center {
+    text-align: center;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+header nav p {
+    text-align: center;
+    width: 25vw;
+    margin-bottom: 40px;
+}
+
+header nav p a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2vw;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+header nav p a:hover {
+    background-color: gray;
+    color: white;
+}
+
+header h1 {
+    font-size: 6vw;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 1440px) {
+    header h1, header nav p {
+        margin-bottom: 20px;
+    }
+}
+
+#introduction {
+    font-size: 1.2vw;
+    line-height: 40px;
+    padding: 20px;
+}
+
+#introduction h2{
+    font-size: 4vw;
+    margin-bottom: 40px;
+}
+
+#introduction ul {
+    margin-left: 20px;
+}
+
+#introduction span {
+    font-weight: bold;
+}
+
+@media (max-width: 1440px) {
+    header {
+        margin-bottom: 30px;
+    }
+
+    #introduction {
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #header {
+        margin-bottom: 0;
+    }
+
+    #introduction h2 {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    #introduction ul {
+        margin-left: 10px;
+    }
+}
+
+@media (max-height: 425px) and (orientation: landscape) {
+    #introduction ul {
+        margin-left: 10px;
+    }
+}
+
+#what-you-should-already-know h2 {
+    font-size: 4vw;
+    margin-bottom: 40px;
+}
+
+#what-you-should-already-know {
+    font-size: 1.2vw;
+    padding: 20px;
+}
+
+#what-you-should-already-know ul{
+    margin-left: 40px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+@media (max-width: 1440px) {
+    #what-you-should-already-know ul {
+        margin-left: 25px;
+    }
+}
+
+@media (max-height: 768px) {
+    #what-you-should-already-know h2 {
+        margin-bottom: 10px;
+    }
+}
+
+#JavaScript-and-Java {
+    padding: 20px;
+}
+
+#JavaScript-and-Java h2 {
+    font-size: 4vw;
+    margin-bottom: 40px;
+}
+
+#JavaScript-and-Java p {
+    font-size: 1.2vw;
+}
+
+.top-button {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.top-button:hover {
+    color: white;
+    background-color: gray;
+}
+
+.button-p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    #JavaScript-and-Java h2 {
+        margin-bottom: 10px;
+    }
+}
+
+#Hello-world {
+    padding: 20px;
+    font-size: 1.2vw;
+}
+
+#Hello-world h2 {
+    font-size: 4vw;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    #Hello-world h2 {
+        margin-bottom: 10px;
+    }
+}
+
+#Variables {
+    padding: 20px;
+}
+
+#Variables h2 {
+    font-size: 4vw;
+    margin-bottom: 40px;
+}
+
+#Variables p {
+    font-size: 1.2vw;
+}
+
+@media (max-width: 768px) {
+    #Variables h2 {
+        margin-bottom: 10px;
+    }
+}
+
+#Declaring-variables {
+    padding: 20px;
+}
+
+#Declaring-variables h2{
+    font-size: 4vw;
+    margin-bottom: 40px;
+}
+
+#Declaring-variables p {
+    font-size: 1.2vw;
+}
+
+.code {
+    background-color: rgb(231, 231, 231);
+    padding: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+@media (max-width: 768px) {
+    #Declaring-variables h2 {
+        margin-bottom: 10px;
+    }
+}
+
+#Variable-scope {
+    padding: 20px;
+}
+
+#Variable-scope h2 {
+    font-size: 4vw;
+    margin-bottom: 40px;
+}
+
+#Variable-scope p {
+    font-size: 1.2vw;
+}
+
+@media (max-width: 768px) {
+    #Variable-scope h2 {
+        margin-bottom: 10px;
+    }
+}
+
+#Global-variables {
+    padding: 20px;
+}
+
+#Global-variables h2 {
+    font-size: 4vw;
+    margin-bottom: 40px;
+}
+
+#Global-variables p {
+    font-size: 1.2vw;
+}
+
+@media (max-width: 768px) {
+    #Global-variables h2 {
+        margin-bottom: 10px;
+    }
+}
+
+.header {
+    font-size: 4vw;
+    margin-bottom: 40px;
+}
+
+.section {
+    padding: 20px;
+}
+
+#Constants p {
+    font-size: 1.2vw;
+}
+
+@media (max-width: 768px) {
+    .header {
+        margin-bottom: 10px;
+    }
+}
+
+#Data-types p, #Data-types li {
+    font-size: 1.2vw;
+}
+
+#Data-types ul {
+    margin-left: 30px;
+}
+
+.if-else {
+    font-size: 1.2vw;
+}
+
+#while-statement ul {
+    margin-left: 30px;
+}
+
+#Function-declarations {
+    font-size: 1.2vw;
+}
+
+#Function-declarations ul {
+    margin-left: 40px;
+}
+
+#Reference {
+    font-size: 1.2vw;
+}
+
+#Reference ul {
+    margin-left: 30px;
+}
+
